@@ -1,0 +1,22 @@
+body {
+    font-family: "Arial", cursive;
+}
+
+section {
+    text-align: center;
+}
+
+#board {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+.box {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #888888;
+    border: 1px solid #888888;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 50px;
+}
